@@ -6,9 +6,9 @@ UNLOAD STATION~~~アンロードステーション
 CLAWTRAIN TRACK~~~クレーンレール
 TRAIN TRACK~~~貨物列車のレール
 ROAD~~~道路
-This will destroy the factory and all of its contents, are you sure?~~~これにより、工場とその中身がすべて破壊されます。よろしいですか？
-Holds up to X cratesworth of one kind of resource. Allows the transfer of resources in and out via Transfer-Tubes.~~~１種類のリソースを保管します。容量は40です。リソースは、移送管を介して出し入れできます。
-Transfers Crates from one Conveyor to another Conveyor.~~~ボックスをあるステップコンベヤから別のステップコンベヤに移動します。屋内で構築する必要があります。
+This will destroy the factory and all of its contents, are you sure?~~~これにより、工場とその中身がすべて破壊されます。`よろしいですか？
+Holds up to X cratesworth of one kind of resource. Allows the transfer of resources in and out via Transfer-Tubes.~~~１種類のリソースを保管します。容量は40です。`リソースは、移送管を介して出し入れできます。
+Transfers Crates from one Conveyor to another Conveyor.~~~ボックスをあるステップコンベヤから別のステップコンベヤに移動します。`屋内で構築する必要があります。
 CRATE MAKER~~~ボックスメーカー
 GREEN GRASS~~~緑の草
 NO~~~いいえ
@@ -17,7 +17,7 @@ GREEN~~~緑
 RED~~~赤
 DroneBayInfo~~~DroneBayInfoDroneBayInfoDroneBayInfoDroneBayInfoDroneBayInfopppppppppppppppppppppppppppppppppppppppppppp##Only connects to:##_conveyorImage
 Must unlock Water Works before unlocking farms~~~農場のロックを解除する前に水をロック解除する必要があります
-This will destroy the factory and all of its contents, are you sure?~~~これにより、工場とその中身がすべて破壊されます。これでよろしいですか？
+This will destroy the factory and all of its contents, are you sure?~~~これにより、工場とその中身がすべて破壊されます。`よろしいですか？
 FACTORY~~~工場
 POWER CONNECTED~~~電力
 WATER CONNECTED~~~水
@@ -28,7 +28,7 @@ CONTAINS:~~~確保：
 DESTROY CONTENTS~~~リソースを破棄
 ANY~~~どれか
 REMOTE CONNECTOR~~~リモートコネクタ
-REMOTCONNECTORDESCREMOTCONNECTORDESCREMOTCONNECTORDESCREMOTCONNECTORDESCREMOTCONNECTORDESC~~~同じ工場内のコンテナに直接接続します。 接続を形成するには、コンテナを一致する色に設定する必要があります。 特定の色に設定できるのは、工場ごとに1つのコンテナのみです。
+REMOTCONNECTORDESCREMOTCONNECTORDESCREMOTCONNECTORDESCREMOTCONNECTORDESCREMOTCONNECTORDESC~~~同じ工場内のコンテナに直接接続します。 `接続を形成するには、コンテナを一致する色に設定する必要があります。`特定の色に設定できるのは、工場ごとに1つのコンテナのみです。
 TRANSFER-CLAW~~~搬送クレーン
 POWER STATION~~~発電所
 POWER STATIONDESC~~~電気を作り出す
@@ -37,7 +37,7 @@ ACCEPTED CONTENTS:~~~許容されるリソース：
 ALL~~~すべて
 NONE~~~無し
 SKIP EVERY:~~~スキップ：
-OFF~~~ＯＦＦ
+OFF~~~OFF
 ON~~~ON
 DRONE PRIORITY:~~~ドローンの優先度：
 ACTIVE CRATES:~~~使用中のボックスの数：
@@ -46,13 +46,13 @@ MEDIUM~~~中
 LOW~~~低
 OFF~~~オフ
 CONTENTS~~~ホールディングス
-CrateMakerDescriptionCrateMakerDescriptionCrateMakerDescription~~~ボックスを構築し、ステップコンベアまたはアンロードステーションに出力します。作成中にボックスを満たすことができるオプションの入力ポートがあります。 屋内でも屋外でも構築できます。 （30個のボックス生産に制限されます。 ボックスは、さらにボックスを作成する前に出荷または破壊する必要があります。）
+CrateMakerDescriptionCrateMakerDescriptionCrateMakerDescription~~~ボックスを構築し、ステップコンベアまたはアンロードステーションに出力します。`作成中にボックスを満たすことができるオプションの入力ポートがあります。`屋内でも屋外でも構築できます。 `（30個のボックス生産に制限されます。 ボックスは、さらにボックスを作成する前に出荷または破壊する必要があります。）
 ClawTrainPickupStopDescClawTrainPickupStopDescClawTrainPickupStopDesc~~~通過するクレーンに、その下のロード/アンロードステーションでボックスを拾うように指示します。
 CLAWTRAIN PICK-UP STOP~~~クレーンレールピックアップストップ
-ClawTrainDropOffStopDescClawTrainDropOffStopDescClawTrainDropOffStopDesc~~~通過するクレーンに、現在保持しているボックスをその下のロード/アンロードステーションに降ろそうとするように命令します。
+ClawTrainDropOffStopDescClawTrainDropOffStopDescClawTrainDropOffStopDesc~~~通過するクレーンに、現在保持しているボックスをその下のロード/アンロードステーションに降ろすように命令します。
 CLAWTRAIN DROP-OFF STOP~~~クレーンレールドロップオフストップ
 CLAWTRAIN TRUCK LOADER~~~クレーントラックローダー
-ClawTrainTruckLoaderDescClawTrainTruckLoaderDescClawTrainTruckLoaderDesc~~~道路のピットストップに建てられました。現在保持されているクレートをその下のトラックに降ろすために爪を渡すコマンド。
+ClawTrainTruckLoaderDescClawTrainTruckLoaderDescClawTrainTruckLoaderDesc~~~道路のピットストップに建てられました。`現在保持されているボックスをその下のトラックに降ろすためにクレーンを渡すコマンド。
 CLAWTRAIN CRATE GATE~~~クレーンレールブロッカー
 ClawTrainCrateGateDescClawTrainCrateGateDescClawTrainCrateGateDesc~~~要件を満たしていないクレーンの通過を阻止します。
 PASS REQUIREMENTS:~~~パスの要件：
@@ -66,40 +66,41 @@ TRANSFER-TUBE G2TDESCTRANSFER-TUBE G2TDESCTRANSFER-TUBE G2TDESC~~~構造物の�
 TRANSFER-TUBE T2G~~~移送管
 TRANSFER-TUBE T2GDESCTRANSFER-TUBE T2GDESCTRANSFER-TUBE T2GDESC~~~ステップコンベアまたはカートから構造物のグランドポートにリソースを転送します。
 LOAD-STATION~~~ロードステーション
-LOAD-STATIONDESCLOAD-STATIONDESCLOAD-STATIONDESCLOAD-STATIONDESCLOAD-STATIONDESCLOAD-STATIONDESCLOAD-STATIONDESC~~~ドローンはここでボックスを降ろすように設定できます。クレーンレールのドロップオフ/ピックアップストップにも接続できます。
+LOAD-STATIONDESCLOAD-STATIONDESCLOAD-STATIONDESCLOAD-STATIONDESCLOAD-STATIONDESCLOAD-STATIONDESCLOAD-STATIONDESC~~~ドローンはここでボックスを降ろすように設定できます。`クレーンレールのドロップオフ/ピックアップストップにも接続できます。
 UNLOAD-STATION~~~アンロードステーション
-UNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESC~~~ドローンは、ここでボックスを取得するように設定できます。クレーンレールのドロップオフ/ピックアップストップにも接続できます。  （最後のボックスは破壊されます）
+UNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESCUNLOAD-STATIONDESC~~~ドローンは、ここでボックスを取得するように設定できます。`クレーンレールのドロップオフ/ピックアップストップにも接続できます。 `（最後のボックスは破壊されます）
 DESTROY ALL CRATES:~~~すべてのボックスを破壊します。
 ROAD PITSTOP~~~ロードピットストップ
-ROADPITSTOPDESCROADPITSTOPDESCROADPITSTOPDESCROADPITSTOPDESCROADPITSTOPDESCROADPITSTOPDESCROADPITSTOPDESC~~~輸送トラックはここで停止し、出荷するボックスでいっぱいになるのを待ちます。  ドローンまたはクレーンは、ここにボックスを積み込むように設定できます。
+ROADPITSTOPDESCROADPITSTOPDESCROADPITSTOPDESCROADPITSTOPDESCROADPITSTOPDESCROADPITSTOPDESCROADPITSTOPDESC~~~輸送トラックはここで停止し、出荷するボックスでいっぱいになるのを待ちます。  `ドローンまたはクレーンは、ここにボックスを積み込むように設定できます。
 TRAIN LOADING-SILO~~~貨物列車積込サイロ
-TRAINLOADINGSILODESCTRAINLOADINGSILODESCTRAINLOADINGSILODESCTRAINLOADINGSILODESCTRAINLOADINGSILODESC~~~通過する貨物列車にリソースを転送します。 単一のリソースタイプの16を保持します。
+TRAINLOADINGSILODESCTRAINLOADINGSILODESCTRAINLOADINGSILODESCTRAINLOADINGSILODESCTRAINLOADINGSILODESC~~~通過する貨物列車にリソースを転送します。`単一のリソースタイプを16個保持します。
 DRONE BAY~~~ドローンベイ
 DRONEBAYDESCDRONEBAYDESCDRONEBAYDESCDRONEBAYDESCDRONEBAYDESCDRONEBAYDESCDRONEBAYDESC~~~4つのドローンにワイヤレスコンピューティングパワーを提供します。
 MINING RIG~~~マイニングリグ
-MININGRIGDESCMININGRIGDESCMININGRIGDESCMININGRIGDESCMININGRIGDESCMININGRIGDESCMININGRIGDESCMININGRIGDESC~~~石炭鉱石、鉄鉱石、金鉱石などの原料を地面から抽出します。  鉱物資源上に構築する必要があります。
+MININGRIGDESCMININGRIGDESCMININGRIGDESCMININGRIGDESCMININGRIGDESCMININGRIGDESCMININGRIGDESCMININGRIGDESC~~~石炭鉱石、鉄鉱石、金鉱石などの原料を地面から抽出します。`鉱物資源上に構築する必要があります。
 CURRENTLY MINING:~~~現在マイニング：
-1 PER~~~1毎
-SECONDS~~~秒数
+1 PER~~~1個/
+SECONDS~~~秒
 OIL DERRICK~~~オイルデリック
-OILDERRICKDESCOILDERRICKDESCOILDERRICKDESCOILDERRICKDESCOILDERRICKDESC~~~原油を地面から抽出します。油田の上に構築する必要があります。 1か月あたり1,000ドルの電力をワイヤレスで使用します。
+OILDERRICKDESCOILDERRICKDESCOILDERRICKDESCOILDERRICKDESCOILDERRICKDESC~~~原油を地面から抽出します。`油田の上に構築する必要があります。 `1か月あたり1,000ドルの電力をワイヤレスで使用します。
 CURRENTLY EXTRACTING:~~~現在抽出中：
 FARM PLATFORM~~~農場プラットフォーム
-FARM PLATFORMDESCFARM PLATFORMDESCFARM PLATFORMDESC~~~草の成長プラットフォームとして機能します。 1か月あたり400ドルの電力をワイヤレスで使用します。
-GRASS TYPE~~~ガラスタイプ
-6 PER~~~6毎
+FARM PLATFORM  ~~~農場プラットフォーム
+FARM PLATFORMDESCFARM PLATFORMDESCFARM PLATFORMDESC~~~草の成長プラットフォームとして機能します。 `1か月あたり400ドルの電力をワイヤレスで使用します。
+GRASS TYPE~~~草のタイプ
+6 PER~~~6個/
 REFINER~~~リファイナー
-REFINERDESCREFINERDESCREFINERDESCREFINERDESCREFINERDESCREFINERDESCREFINERDESCREFINERDESC~~~リソースを粗い形式から純粋な形式に変換します。 工場で組み立てる必要があります。  ロードステーション、ステップコンベア、ボックスメーカーからの入力としてボックスを受け取ります。
+REFINERDESCREFINERDESCREFINERDESCREFINERDESCREFINERDESCREFINERDESCREFINERDESCREFINERDESC~~~リソースを粗い形式から純粋な形式に変換します。`工場で組み立てる必要があります。`ロードステーション、ステップコンベア、ボックスメーカーからの入力としてボックスを受け取ります。
 CURRENTLY REFINING:~~~現在精製中：
 COMBINER~~~コンバイナー
-COMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESC~~~2つのリソースを組み合わせて、プロセスで新しいリソースを作成します。 サイドポートからリソースを取り込みます。最終製品をフロントポートに出力します。 工場で建設する必要があります。
+COMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESCCOMBINERDESC~~~2つのリソースを組み合わせて、プロセスで新しいリソースを作成します。`サイドポートからリソースを取り込みます。`最終製品をフロントポートに出力します。`工場で建設する必要があります。
 CURRENTLY COMBINING:~~~現在の組み合わせ：
 RESEARCH BAY~~~リサーチベイ
-RESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESC~~~アップグレードに使用できるテクノロジーポイントを生成します。入力としてリソースを受け取ります。 20個のボックスを処理した後にポイントを請求できます。
+RESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESCRESEARCHBAYDESC~~~アップグレードに使用できるテクノロジーポイントを生成します。`入力としてリソースを受け取ります。`20個のボックスを処理した後にポイントを請求できます。
 PROCESSING CONTENTS INTO:~~~コンテンツ処理：
-RESEARCH POINTS~~~技術的なポイント
+RESEARCH POINTS~~~テクノロジーポイント
 MINETRACK~~~カートレール
-MINECARTDESCMINECARTDESCMINECARTDESCMINECARTDESCMINECARTDESCMINECARTDESCMINECARTDESCMINECARTDESCMINECARTDESC~~~単一のカートセットレールとして機能します。カートがレールの端に達すると、方向が逆になります。 各カートには4つのリソースを保持できます。
+MINECARTDESCMINECARTDESCMINECARTDESCMINECARTDESCMINECARTDESCMINECARTDESCMINECARTDESCMINECARTDESCMINECARTDESC~~~単一のカートセットレールとして機能します。`カートがレールの端に達すると、方向が逆になります。`各カートには4つのリソースを保持できます。
 MINECARTSMOVETITLE~~~カートレール
 MINECARTRAMPTITLE~~~カートレール
 CAPACITY~~~容量
@@ -108,7 +109,7 @@ ADD CART~~~カートを追加
 ADD~~~追加
 REMOVE CART~~~カートを削除
 REMOVE~~~削除
-CLAWTRAIN TRACK DESCCLAWTRAIN TRACK DESCCLAWTRAIN TRACK DESCCLAWTRAIN TRACK DESCCLAWTRAIN TRACK DESC~~~クレーンの単一レールセットとして機能します。 端部でのクレーンの逆方向
+CLAWTRAIN TRACK DESCCLAWTRAIN TRACK DESCCLAWTRAIN TRACK DESCCLAWTRAIN TRACK DESCCLAWTRAIN TRACK DESC~~~クレーンの単一レールセットとして機能します。 `クレーンがレールの端に達すると、方向が逆になります。
 CLAWS~~~クレーン
 ADD CLAWS~~~クレーンを追加
 REMOVE CLAWS~~~クレーンを取り外す
@@ -135,53 +136,59 @@ FARMING UNLOCK DESC~~~農業を利用して生産を増やしましょう。
 WATERWORKS~~~水
 WATERWORKS UNLOCK DESC~~~さまざまなマシンを水に接続することで、それらの機能をアップグレードします。
 CARGO ROCKET~~~ロケット
-ROCKET UNLOCK DESC~~~箱で満たされたロケットを発射して、リソースを販売します。 ロケットで販売されたリソースは、45％の重量と収益ボーナスを付与します。
+ROCKET UNLOCK DESC~~~箱で満たされたロケットを発射して、リソースを販売します。`ロケットで販売されたリソースは、45％の重量と収益ボーナスを付与します。
 OIL DERRICK UNLOCK DESC~~~地面から油を抽出するために使用されます。
-TRAIN UNLOCK DESC~~~リソースを販売する効率的な方法として、コロニーで貨物列車を使用します。貨物列車は、ボックスを受け取るのではなく、。  ローダーサイロを介してリソースを受け取ります。これらのサイロはカートを介してロードできます。
-REFINER UNLOCK DESC~~~リファイナーを使用して、軽量鉱石をより重いリソースに精製します。  また、他の多くのマシンを組み込む必要がある工場を建設します。  リファイナーの入出力はボックスで行います。
-STEP CONVEYOR UNLOCK DESC~~~ステップコンベアを使用して、マシン間で均等かつ効率的にボックスを割り当てます。 移動クレーンをシステムに組み込んで、別々のコンベア間でボックスを移動することもできます。 移送管は、ステップコンベア上の通過ボックスに接続することもできます。
-REMOTE CONNECTOR UNLOCK DESC~~~このデバイスを使用して、工場内の遠隔地点からタンクにリモート接続します。 リモートコネクタは、大規模なコンバイナシステムを扱うときに役立ちます。
-COMBINER UNLOCK DESC~~~精製されたリソースを（はるかに重い）結合リソースにグループ化します。 ボックスを受け取る代わりに、コンバイナーは移送管ポートを介してリソースを入出力します。
+TRAIN UNLOCK DESC~~~リソースを販売する効率的な方法として、コロニーで貨物列車を使用します。`貨物列車は、ボックスを受け取るのではなく、ローダーサイロを介してリソースを受け取ります。`これらのサイロはカートを介してロードできます。
+REFINER UNLOCK DESC~~~リファイナーを使用して、軽量鉱石をより重いリソースに精製します。`また、他の多くのマシンを組み込む必要がある工場を建設します。`リファイナーの入出力はボックスで行います。
+STEP CONVEYOR UNLOCK DESC~~~ステップコンベアを使用して、マシン間で均等かつ効率的にボックスを割り当てます。`移動クレーンをシステムに組み込んで、別々のコンベア間でボックスを移動することもできます。`移送管は、ステップコンベア上の通過ボックスに接続することもできます。
+REMOTE CONNECTOR UNLOCK DESC~~~このデバイスを使用して、工場内の遠隔地点からタンクにリモート接続します。`リモートコネクタは、大規模なコンバイナシステムを扱うときに役立ちます。
+COMBINER UNLOCK DESC~~~精製されたリソースを（はるかに重い）結合リソースにグループ化します。 `ボックスを受け取る代わりに、コンバイナーは移送管ポートを介してリソースを入出力します。
 CLAWTRAIN CRATE GATE UNLOCK DESC~~~このデバイスを使用して、定義された条件下でクレーンがレールを通過できないようにします。
 CLAWTRAIN TRUCK LOADER UNLOCK DESC~~~クレーンでトラックに直接積み込みます。道路のピットストップで構築します。
-CLAW TRAIN UNLOCK DESC~~~クレーンを使用して、コロニーの周りにボックスを効率的に輸送します。 クレーンは、ロードステーションおよびアンロードステーションと相互作用します。
-WATERRESERVOIRDESCWATERRESERVOIRDESCWATERRESERVOIRDESC~~~さまざまな構造物に接続できるパイプに水を送り込みます。ワイヤレスで毎月2,000ドルの電力を使用します。
+CLAW TRAIN UNLOCK DESC~~~クレーンを使用して、コロニーの周りにボックスを効率的に輸送します。`クレーンは、ロードステーションおよびアンロードステーションと相互作用します。
+WATERRESERVOIRDESCWATERRESERVOIRDESCWATERRESERVOIRDESC~~~さまざまな構造物に接続できるパイプに水を送り込みます。`ワイヤレスで毎月2,000ドルの電力を使用します。
 ROAD ENTRY~~~道路入口
-ROADENTRYDESCROADENTRYDESCROADENTRYDESCROADENTRYDESC~~~リソースのボックスを購入するためにあなたのコロニーに入る輸送トラックの入り口として機能します。 他の道路入口トンネルが既に建設されている場合、その入口トンネルの近くに建設する必要があります。
+ROADENTRYDESCROADENTRYDESCROADENTRYDESCROADENTRYDESC~~~リソースのボックスを出荷するための輸送トラックの入り口として機能します。`他の道路入口トンネルが既に建設されている場合、その入口トンネルの近くに建設する必要があります。
 ROAD EXIT~~~道路出口
-ROADEXITDESCROADEXITDESCROADEXITDESCROADEXITDESC~~~輸送トラックの出口として機能します。トラックが出口トンネルを通過するとすぐに、出荷した積み込み分リソースの代金を受け取ります。
+ROADEXITDESCROADEXITDESCROADEXITDESCROADEXITDESC~~~輸送トラックの出口として機能します。`トラックが出口トンネルを通過するとすぐに、出荷した積み込み分リソースの代金を受け取ります。
 POWER STATION~~~発電所
 POWERSTATIONDESCPOWERSTATIONDESCPOWERSTATIONDESCPOWERSTATIONDESC~~~あなたのコロニーに電力を供給します
 TRAIN TRACK ENTRY~~~貨物列車入口
-TRAIN TRACK ENTRYDESCTRAIN TRACK ENTRYDESCTRAIN TRACK ENTRYDESC~~~貨物列車の入り口として機能します。 以前に別の列車の入口が建設されていた場合、その入口の近くに建設する必要があります。
+TRAIN ENTRY~~~貨物列車入口
+TRAIN TRACK ENTRYDESCTRAIN TRACK ENTRYDESCTRAIN TRACK ENTRYDESC~~~貨物列車の入り口として機能します。 `以前に別の列車の入口が建設されていた場合、その入口の近くに建設する必要があります。
 TRAIN TRACK EXIT~~~貨物列車出口
-TRAINTRACKEXITDESCTRAINTRACKEXITDESCTRAINTRACKEXITDESCTRAINTRACKEXITDESC~~~貨物列車の出口として機能します。列車が出口トンネルを通過するとすぐに、出荷したリソースの代金を受け取ります。
+TRAINTRACKEXITDESCTRAINTRACKEXITDESCTRAINTRACKEXITDESCTRAINTRACKEXITDESC~~~貨物列車の出口として機能します。`列車が出口トンネルを通過するとすぐに、出荷したリソースの代金を受け取ります。
 DRONE~~~ドローン
-DRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESC~~~アンロードステーションからピットストップ、ロードステーションまたは輸送トラックへボックスを輸送します。 ドローンベイが必要です。
+DRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESCDRONEDESC~~~アンロードステーションからピットストップ、ロードステーション`または輸送トラックへボックスを輸送します。 `ドローンベイが必要です。
 Holding:~~~ホールディング：
 DESTROY CRATE~~~削除ボックス
 ROCKET LAUNCHPAD~~~ロケット
-ROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESC~~~ロードステーション経由でボックスを受け取ります。ロケットがいっぱいになると、 ロケットは45％の重量/収益ボーナスで販売されるボックスとともに飛び立ちます。 1か月あたり1,000ドルの電力をワイヤレスで使用します。
+ROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESCROCKETDESC~~~ロードステーション経由でボックスを受け取ります。`ロケットがいっぱいになると、 ロケットは45％の重量/収益ボーナスで販売されるボックスとともに飛び立ちます。`1か月あたり1,000ドルの電力をワイヤレスで使用します。
 PAD CONTENTS:~~~パッドの内容：
 ROCKET CONTENTS:~~~ロケットの内容：
 FACTORY~~~工場
-FACTORYDESC~~~リファイナーとコンバイナーを構築する必要がある屋内スペースを提供します。 収容されたマシンにエネルギーを供給するために、電源に接続する必要があります。
+FACTORYDESC~~~リファイナーとコンバイナーを構築する必要がある屋内スペースを提供します。 `収容されたマシンにエネルギーを供給するために、電源に接続する必要があります。
 DOORWAY~~~工場出入口
 DOORWAYDESC~~~ドローン、カート、またはクレーンが使用する工場への出入口を提供します。
 SMALL CONTAINER~~~小型タンク
-SMALLCONTAINERDESC~~~1種類のリソースを最大40個保持します。移送管を介したリソースの入出庫が可能です。
+SMALLCONTAINERDESC~~~1種類のリソースを最大40個保持します。`移送管を介したリソースの入出庫が可能です。
 LARGE CONTAINER~~~大型タンク
-LARGECONTAINERDESC~~~1種類のリソースを最大120個保持します。 移送管を介したリソースの入出庫が可能です。
-GENERALCONTAINERDESCGENERALCONTAINERDESCGENERALCONTAINERDESCGENERALCONTAINERDESCGENERALCONTAINERDESC~~~特異なタイプのリソースを保持します。移送管を介したリソースの出し入れが可能です。
+LARGECONTAINERDESC~~~1種類のリソースを最大120個保持します。`移送管を介したリソースの入出庫が可能です。
+GENERALCONTAINERDESCGENERALCONTAINERDESCGENERALCONTAINERDESCGENERALCONTAINERDESCGENERALCONTAINERDESC~~~特異なタイプのリソースを保持します。`移送管を介したリソースの出し入れが可能です。
 WATER RESERVOIR~~~貯水池
-WATER RESERVOIRDESC~~~さまざまな構造物に接続できるパイプに水を送り込みます。 1か月あたり2,000ドルの電力をワイヤレスで使用します。
+WATER RESERVOIRDESC~~~さまざまな構造物に接続できるパイプに水を送り込みます。`1か月あたり2,000ドルの電力をワイヤレスで使用します。
 WATER PIPE~~~水道管
 WATER PIPEDESC~~~貯水池からさまざまな構造に水を運びます。
 GREENHOUSE UPGRADE~~~グリーンハウスのアップグレード
-GREENHOUSE DESC~~~ファームプラットフォーム用にアップグレードします。植物の成長を25％加速します。
+GREENHOUSE DESC~~~ファームプラットフォーム用にアップグレードします。`植物の成長を25％加速します。
 STEP CONVEYOR~~~ステップコンベア
-STEP CONVEYORDESC~~~1秒間隔でボックスを移動します。すべてのボックスに移動するスペースがない限り、移動をさせません
+STEP CONVEYORDESC~~~1秒間隔でボックスを移動します。`すべてのボックスに移動するスペースがない限り、移動させません。
 RESEARCH UNLOCKS~~~研究のロック解除
++10% Minecart speed:~~~カート速度 +10％
++20% Minecart speed:~~~カート速度 +20％
++30% Minecart speed:~~~カート速度 +30％
++40% Minecart speed:~~~カート速度 +40％
++50% Minecart speed:~~~カート速度 +50％
 +10% highway Minecart speed:~~~カート高速レール速度 +10％
 +20% highway Minecart speed:~~~カート高速レール速度 +20％
 +30% highway Minecart speed:~~~カート高速レール速度 +30％
@@ -380,7 +387,7 @@ LOAD~~~ロード
 DELETE~~~削除
 NAME YOUR COLONY:~~~あなたのコロニーに名前を付けてください：
 DEMOLISH~~~取り壊す
-GREENHOUSE ENABLED~~~使用中の温室
+GREENHOUSE ENABLED~~~温室の使用
 CONNECTOR COLOR:~~~コネクタの色：
 Sets which remote connector to be connected to if any exist in this container's factory.``Only one container per factory can be set to a given color.~~~このコンテナのファクトリに存在する場合、 接続するリモートコネクタを設定します。``特定の色に設定できるのは、工場ごとに1つのコンテナのみです。
 Starter mode provides you with the basics prebuilt. If you are unfamiliar with the game, starter mode is essential.~~~スターターモードは、事前に構築された基礎を提供します。 ゲームに慣れていない場合は、スターターモードが不可欠です。
