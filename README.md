@@ -1,4 +1,5 @@
 # AutomationEmpireJapaneseTranslation
+Automation Empire 日本語化ファイル
 Automation Empire Japanese Translation
 
 japanesePreset.txtを以下へ上書き
